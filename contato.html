@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+              <a href="./paginaPrincipal.html">Página Principal</a>
+              
+              <a href="./sobreaclinica.html">Sobre a clínica</a>
+              <a href="./horario.html">Horário de Atendimento</a>
+              <a href="./contato.html">Contato</a>
+                        
+          </ul>
+          
+
+
+           
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./logo.png" >
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                
+                  <form action="enviar.php" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                  
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                  
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                  
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                  
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                  </form>
+                  
+               
+                    <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <p>*Atividade para DIO março 2023*</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
